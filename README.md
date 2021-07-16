@@ -2,9 +2,11 @@
 
 
 To run it on you system,use the commands below,
+'''
 1.npm install --global yarn
 2.yarn
 3.yarn dev
+'''
 
 
 You can visit the demo app [here](https://bit.ly/3mfu60O) 
