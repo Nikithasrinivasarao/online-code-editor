@@ -1,7 +1,7 @@
 # Online Code Editor for HTML,CSS and JavaScript
 
 
-To run it on you system,use the commands below,
+To run it on your system,use the commands below,
 
 
 1.npm install --global yarn
