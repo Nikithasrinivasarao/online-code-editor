@@ -1,4 +1,4 @@
-# React-Online Code Editor for HTML,CSS and JavaScript
+# Online Code Editor for HTML,CSS and JavaScript
 
 
 To run it on you system,use the commands below,
@@ -12,4 +12,4 @@ To run it on you system,use the commands below,
 
 
 
-You can visit the demo app [here](https://online-code-editor.vercel.app/) 
+You can check out my application [here](https://online-code-editor.vercel.app/) 
