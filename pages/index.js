@@ -96,10 +96,21 @@ const Index = () => {
         <button className={styles.button} onClick={() => (location.href = "/")}>
           New
         </button>
-        <button className={styles.button} onClick={save}>
+        <button className={styles.button} onClick={() => (location.href = "/")}>
+          HTML
+        </button>
+        <button className={styles.button} onClick={() => (location.href = "/")}>
+          CSS
+        </button>
+        <button className={styles.button} onClick={() => (location.href = "/")}>
+          JavaScript
+        </button>
+        {/* <p className={styles.main}><b><center>Online Code Editor</center></b></p> */}
+        
+  <button className={styles.button1} onClick={save}>
           {saving ? "Saving..." : "Save"}
         </button>
-        <p className={styles.main}><b>Online Code Editor</b></p>
+       
       </div>
       <SplitPane
         style={{ marginTop: "60px" }}
@@ -129,6 +140,7 @@ const Index = () => {
           </SplitPane>
         </SplitPane>
         <iframe srcDoc={outputValue} className={styles.previewIframe} />
+        
       </SplitPane>
     </>
   );
